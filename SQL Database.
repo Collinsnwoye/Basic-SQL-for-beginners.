@@ -1,7 +1,7 @@
-## Introduction to SQL.
-### What is SQL?
+Introduction to SQL.
+What is SQL?
 SQL is the language used to communicate with databases. The acronym stands for Structured Query Language and is pronounced either like "sequel" or jusut SQL in letters.
-## Components of SQL-Based Data Systems
+Components of SQL-Based Data Systems
 - Database – The top-level container that holds all data objects.
 - Schema – A logical grouping of database objects like tables, views, and procedures.
 - Table – A structured set of rows and columns where data is stored.
