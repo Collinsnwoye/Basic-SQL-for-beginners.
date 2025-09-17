@@ -11,3 +11,8 @@ Components of SQL-Based Data Systems
 - Indexes – Structures that improve query performance.
 - Views – Virtual tables based on SQL queries.
 - Stored Procedures – Predefined SQL code that can be executed repeatedly.
+ DATA TYPES AND HOW TO WORK WITH THEM.
+If you working with SQL, you'll be working with databses.
+   There is a range of database types---open source(Free to use, modify, and distribute. Community-driven, flexible, and cost-effective.
+Example:PostgreSQL, MySQL, SQLite, ClickHouse, MongoDB) to proprietary(Commercially licensed. Offers vendor support, advanced features, and enterprise-grade reliability. Example:Oracle, Microsoft SQL Server, IBM Db2, Snowflake
+)
