@@ -1,2 +1,19 @@
 # Basic-SQL-for-beginners.
-### Introduction to SQL(Simple Querry Language)
+## Introduction to SQL(Simple Querry Language)
+###What is SQL?
+SQL is the language used to communicate with databases. The acronym stands for Structured Query Language and is pronounced either like "sequel" or jusut SQL in letters.
+Components of SQL-Based Data Systems
+- Database – The top-level container that holds all data objects.
+- Schema – A logical grouping of database objects like tables, views, and procedures.
+- Table – A structured set of rows and columns where data is stored.
+- Columns – Define the attributes or fields of a table.
+- Rows – Represent individual records or entries in a table.
+- Constraints – Rules that enforce data integrity (e.g., primary keys, foreign keys).
+- Indexes – Structures that improve query performance.
+- Views – Virtual tables based on SQL queries.
+- Stored Procedures – Predefined SQL code that can be executed repeatedly.
+ DATA TYPES AND HOW TO WORK WITH THEM.
+If you working with SQL, you'll be working with databses.
+   There is a range of database types---open source(Free to use, modify, and distribute. Community-driven, flexible, and cost-effective.
+Example:PostgreSQL, MySQL, SQLite, ClickHouse, MongoDB) to proprietary(Commercially licensed. Offers vendor support, advanced features, and enterprise-grade reliability. Example:Oracle, Microsoft SQL Server, IBM Db2, Snowflake
+)
