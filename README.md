@@ -1,6 +1,6 @@
 # Basic-SQL-for-beginners.
 ## Introduction to SQL(Simple Querry Language)
-###What is SQL?
+### What is SQL?
 SQL is the language used to communicate with databases. The acronym stands for Structured Query Language and is pronounced either like "sequel" or jusut SQL in letters.
 Components of SQL-Based Data Systems
 - Database – The top-level container that holds all data objects.
