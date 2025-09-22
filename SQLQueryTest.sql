@@ -8,6 +8,7 @@ CREATE TABLE PatientData (
 [RegistrationTime] Time NOT NULL,
 [OutstandingBalance] Decimal(7,2) NOT NULL
 );
+
 INSERT INTO PatientData (PatientID, FullName, Gender, DateOfBirth, PhoneNumber, Email, RegistrationTime, OutstandingBalance)
 VALUES 
 (101, 'Adaobi Okafor', 'F', '1990-03-15', '08034567890', 'adaobi.okafor@email.com', '08:30:00', 15000.50),
@@ -16,9 +17,19 @@ VALUES
 (104, 'Emeka Umeh', 'M', '1992-01-30', '08011223344', 'emeka.umeh@email.com', '11:45:00', 500.00),
 (105, 'Ifeoma Anya', 'F', '1988-06-18', '08199887766', 'ifeoma.anya@email.com', '12:20:00', 0.00);
 
-SELECT FullName, Gender, PhoneNumber, Email
-FROM PatientData;
-
+-- Write a SQL query to retrieve the full names and phone numbers of all female patients who have an outstanding balance greater than 1,000.
+-- Find the average outstanding balance of all male patients.
+-- List all patients registered before 10:00 AM.
+-- Find patients whose outstanding balance is exactly zero.
+-- Retrieve the names and emails of patients born before 1990.
+-- Show the patient with the highest outstanding balance.
+-- Count how many male and female patients are in the table.
+-- List all patients whose phone number starts with '080'.
+-- Find patients whose names contain the letter 'e'.
+-- Display all patients sorted by their outstanding balance in descending order.
+-- Show the youngest patient in the table.
+-- Retrieve all patients who registered after 12:00 PM.
+  
 SELECT Gender AS Gen, OutstandingBalance AS Outstand
 FROM PatientData
 WHERE Gender = 'F' AND OutstandingBalance > 1000;
