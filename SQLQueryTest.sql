@@ -76,3 +76,4 @@ FROM PatientData;
 SELECT RegistrationTime
 FROM PatientData
 WHERE RegistrationTime > '12:00:00';
+
