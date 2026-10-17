@@ -98,3 +98,39 @@ VALUES
 
 Select* From Company;
   
+ --👩‍💼 Employees
+--EmployeeID	CompanyID	Name	Department	Role	HireYear	Salary (€)
+1	1	Anna Müller	Engineering	Software Engineer	2018	72,000
+2	1	David Kim	Sales	Account Executive	2020	58,000
+3	1	Maria Lopez	Marketing	Digital Strategist	2019	65,000
+4	1	Jonas Becker	HR	HR Manager	2017	60,000
+5	1	Chloe Dubois	Customer Support	Support Specialist	2021	45,000
+6	1	Samuel Okoro	Engineering	DevOps Engineer	2022	70,000
+7	1	Elena Petrova	Engineering	Data Scientist	2023	75,000
+8	1	James Carter	Sales	Sales Manager	2016	80,000
+
+CREATE TABLE Employees (
+[EmployeeID] INT PRIMARY KEY,
+[CompanyID] INT NOT NULL,
+[Name] VARCHAR(50) NOT NULL,
+[Department] VARCHAR(50) NOT NULL,
+[Role] VARCHAR(50) NOT NULL,
+[HireYear] INT NOT NULL,
+[Salary] DECIMAL(7,2) NOT NULL,
+CONSTRAINT FK_Employee_Company FOREIGN KEY (CompanyID) REFERENCES Company(CompanyID)
+);
+
+SELECT* FROM Employees;
+
+INSERT INTO Employees (EmployeeID, CompanyID,	Name,	Department,	Role,	HireYear,	Salary)
+VALUES 
+(1,	1,	'Anna Müller', 'Engineering', 'Software Engineer', 2018, 72000),
+(2,	1,	'David Kim', 'Sales', 'Account Executive', 2020, 58000),
+(3,	1,	'Maria Lopez', 'Marketing',	'Digital Strategist', 2019, 65000),
+(4,	1,	'Jonas Becker', 'HR', 'HR Manager',	2017, 60000),
+(5,	1,	'Chloe Dubois', 'Customer Support', 'Support Specialist', 2021, 45000),
+(6,	1,	'Samuel Okoro',	'Engineering', 'DevOps Engineer', 2022,	70000),
+(7,	1,	'Elena Petrova', 'Engineering', 'Data Scientist', 2023,	75000),
+(8,	1,	'James Carter',	'Sales', 'Sales Manager', 2016,	80000);
+
+SELECT* FROM Employees
